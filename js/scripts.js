@@ -24,10 +24,11 @@ document.addEventListener("DOMContentLoaded", () => {
     document.querySelector(".next").onclick = () => showSlide(index + 1);
 
     // NÃO TEM autoplay!
-});
 <script>
   function adicionarCarrinho(nomeProduto) {
     // aqui você poderia adicionar lógica de carrinho (array, localStorage, etc.)
     alert('Produto "' + nomeProduto + '" adicionado ao carrinho com sucesso!');
   }
 </script>
+});
+
