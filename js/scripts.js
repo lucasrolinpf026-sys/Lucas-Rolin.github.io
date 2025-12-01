@@ -25,4 +25,9 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // NÃO TEM autoplay!
 });
-
+<script>
+  function adicionarCarrinho(nomeProduto) {
+    // aqui você poderia adicionar lógica de carrinho (array, localStorage, etc.)
+    alert('Produto "' + nomeProduto + '" adicionado ao carrinho com sucesso!');
+  }
+</script>
